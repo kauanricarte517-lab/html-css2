@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    em HTML e id = em css e # ( so pode um documento)
+    em HTML e class = em css e .( pode varios documentos )
+*/
+
+
+body {
+    background-color: rgb(88, 240, 189);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+h1#principal {
+      text-align: center;
+    color: aliceblue;
+    background-color: cyan;
+
+}
+
+h2 {
+    color: black;
+}
+
+.basico {
+    color: brown;
+}
+
+.intermediario {
+    color: blue;
+}
+
+.avancado {
+    color: cornflowerblue;
+}
+
+.destaque {
+    background-color: blueviolet;
+}
